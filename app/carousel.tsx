@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { PiArrowCircleDownLeftDuotone, PiArrowCircleRightBold, PiArrowCircleRightDuotone } from 'react-icons/pi';
+import { PiArrowCircleLeftDuotone, PiArrowCircleRightDuotone } from 'react-icons/pi';
 
 interface CarouselItem {
   id: number;
@@ -243,14 +243,14 @@ const Carousel: React.FC<CarouselProps> = ({
         className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-black/20 text-white hover:bg-black/40 transition-colors"
         aria-label="Previous slide"
       >
-        <PiArrowCircleDownLeftDuotone size={24} />
+        <PiArrowCircleLeftDuotone size={24} />
       </button>
       <button
         onClick={nextSlide}
         className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-black/20 text-white hover:bg-black/40 transition-colors"
         aria-label="Next slide"
       >
-        <PiArrowCircleRightBold size={24} />
+        <PiArrowCircleRightDuotone size={24} />
       </button>
     </div>
     </>
