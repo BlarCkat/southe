@@ -37,16 +37,16 @@ const LandingPageView = () => {
                     <button className="px-8 py-4 rounded-full bg-[#212121] text-white flex justify-between gap-[16px] group/btn hover:bg-[#9DED69] hover:text-[#2C5D0B] transition-all">Start Shopping <PiShoppingCartDuotone size={24} className="hidden group-hover/btn:block transition-all"/></button>
                 </div>
                 <div className="flex lg:gap-[24px] gap-4 w-full h-[500px] my-[32px] flex-col lg:flex-row">
-                    <div className="w-full h-full bg-slate-200 rounded-xl overflow-hidden">
+                    <div className="w-full h-fit bg-slate-200 rounded-xl overflow-hidden">
                         <Image src={heroImage1} alt="image-hero-1" className="object-cover"/>
                     </div>
-                    <div className="w-full h-full bg-slate-200 rounded-xl overflow-hidden">
+                    <div className="w-full h-fit bg-slate-200 rounded-xl overflow-hidden">
                         <Image src={heroImage2} alt="image-hero-2"/>
                     </div>
-                    <div className="w-full h-full bg-slate-200 rounded-xl overflow-hidden">
+                    <div className="w-full h-fit bg-slate-200 rounded-xl overflow-hidden">
                         <Image src={heroImage3} alt="image-hero-3"/>
                     </div>
-                    <div className="w-full h-full bg-slate-200 rounded-xl overflow-hidden">
+                    <div className="w-full h-fit bg-slate-200 rounded-xl overflow-hidden">
                         <Image src={heroImage4} alt="image-hero-4"/>
                     </div>
                 </div>
