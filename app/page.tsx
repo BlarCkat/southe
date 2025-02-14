@@ -1,21 +1,29 @@
 'use client'
 
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 import Link from "next/link";
 
 const HomeView = () => {
-    const {theme, setTheme} = useTheme();
+    // const {theme, setTheme} = useTheme();
     
     return ( 
         <>
-        <div className="min-h-screen bg-red-500 dark:bg-gray-900 text-black dark:text-white transition-colors">
+       
+        </>
+     );
+}
+ 
+export default HomeView;
+
+
+ {/* <div className="min-h-screen dark:bg-[#151515] text-black dark:text-white transition-colors">
       <header className="p-4 flex justify-between items-center">
         <h1>E-Commerce Store</h1>
         <div>
           <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
             Toggle Dark Mode
           </button>
-          <Link href="/login" className="ml-4">
+          <Link href="auth/login" className="ml-4">
             {('login')}
           </Link>
         </div>
@@ -26,9 +34,4 @@ const HomeView = () => {
           {('viewProducts')}
         </Link>
       </main>
-    </div>
-        </>
-     );
-}
- 
-export default HomeView;
+    </div> */}
