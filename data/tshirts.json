@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White Tee",
+    "price": 19.99,
+    "image_path": "https://m.media-amazon.com/images/I/61-8L1s5ZQL._AC_UY1100_.jpg",
+    "description": "Our premium quality white t-shirt made from 100% organic cotton.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#ffffff", "#000000", "#ff0000"]
+  },
+  {
+    "id": 2,
+    "name": "Black Graphic Tee",
+    "price": 24.99,
+    "image_path": "https://m.media-amazon.com/images/I/71f5+5WnDVL._AC_UY1100_.jpg",
+    "description": "Soft black t-shirt with a cool graphic print. Perfect for casual wear.",
+    "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["#000000", "#333333"]
+  },
+  {
+    "id": 3,
+    "name": "Vintage Red Tee",
+    "price": 22.5,
+    "image_path": "https://m.media-amazon.com/images/I/71S4sIPFvBL._AC_UY1100_.jpg",
+    "description": "Vintage style red t-shirt with a slightly faded look for that retro feel.",
+    "sizes": ["S", "M", "L"],
+    "colors": ["#ff0000", "#880000", "#ff6666"]
+  },
+  {
+    "id": 4,
+    "name": "Blue Striped Tee",
+    "price": 27.99,
+    "image_path": "https://m.media-amazon.com/images/I/81KQ+jJjYmL._AC_UY1100_.jpg",
+    "description": "Navy blue t-shirt with white stripes. Great for a nautical look.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["#000080", "#1e90ff"]
+  },
+  {
+    "id": 5,
+    "name": "Green Pocket Tee",
+    "price": 21.99,
+    "image_path": "https://m.media-amazon.com/images/I/71W0+ZbXJAL._AC_UY1100_.jpg",
+    "description": "Olive green t-shirt with chest pocket. Practical and stylish.",
+    "sizes": ["M", "L", "XL"],
+    "colors": ["#556b2f", "#6b8e23"]
+  },
+  {
+    "id": 6,
+    "name": "Grey Oversized Tee",
+    "price": 26.5,
+    "image_path": "https://m.media-amazon.com/images/I/61XDeOOr0FL._AC_UY1100_.jpg",
+    "description": "Comfortable oversized grey t-shirt for a relaxed fit.",
+    "sizes": ["L", "XL", "XXL"],
+    "colors": ["#808080", "#a9a9a9", "#d3d3d3"]
+  }
+]
